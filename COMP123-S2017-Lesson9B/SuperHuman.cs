@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.4 - Added DisplayPowers method
+ * Version: 0.5 - Added the overriden ToString method
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -73,6 +73,25 @@ namespace COMP123_S2017_Lesson9B
             {
                 Console.WriteLine("Power: " + power.Name + " Rank: " + power.Rank);
             }
+        }
+
+        /// <summary>
+        /// The ToString method overrides the built-in Object.ToString method.
+        /// It outputs a string that displays the superhuman's name and their power list.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "===========================================================\n";
+            outputString += "Super Human Name: " + this.Name + "\n";
+            outputString += "===========================================================\n";
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+            }
+            outputString += "===========================================================\n";
+            return outputString;
         }
     }
 }
