@@ -28,8 +28,16 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="COMP123_S2017_Lesson9B.SuperHero">
+    <Position X="9.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="COMP123_S2017_Lesson9B.IHasKarma">
-    <Position X="9.25" Y="1.25" Width="1.5" />
+    <Position X="9.25" Y="1.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
