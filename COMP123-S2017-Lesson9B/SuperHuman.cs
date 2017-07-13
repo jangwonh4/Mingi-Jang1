@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.6 - Modified the ToString to add additional spaces to the string output
+ * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human super class requirements
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -92,6 +92,15 @@ namespace COMP123_S2017_Lesson9B
             }
             outputString += "===========================================================\n";
             return outputString;
+        }
+
+        /// <summary>
+        /// This method overrides the Human abstract superclass DisplaySkills method.
+        /// This method will display a list of Skills to the Console.
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented!");
         }
     }
 }
