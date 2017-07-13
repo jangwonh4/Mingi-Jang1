@@ -16,6 +16,6 @@ namespace COMP123_S2017_Lesson9B
     public interface IHasKarma
     {
         // PUBLIC PROPERTIES
-        int Karma { get; set; } 
+        //int Karma { get; set; } 
     }
 }
