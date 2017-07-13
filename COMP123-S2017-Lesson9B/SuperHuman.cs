@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.5 - Added the overriden ToString method
+ * Version: 0.6 - Modified the ToString to add additional spaces to the string output
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -88,7 +88,7 @@ namespace COMP123_S2017_Lesson9B
             outputString += "===========================================================\n";
             foreach (Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
             }
             outputString += "===========================================================\n";
             return outputString;
