@@ -22,6 +22,12 @@ namespace COMP123_S2017_Lesson9B
             superHero.AddPower("Webcasting", 40);
             Console.WriteLine(superHero.ToString());
 
+            SuperVillain superVilliain = new SuperVillain("SuperVilliain  Joker", 30);
+            superVilliain.AddPower("Poison Gas", 80);
+            superVilliain.AddPower("Sleep Gas", 90);
+
+            Console.WriteLine(superVilliain.ToString());
+            Console.WriteLine("Malice : {0}", superVilliain.Malice);
 
         }
     }
